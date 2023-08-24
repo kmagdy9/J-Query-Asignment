@@ -1,0 +1,231 @@
+html{
+    scroll-behavior : unset !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+#home{
+
+    background-image: linear-gradient(rgba(204, 45, 45, 0.575) , rgba(204, 45, 45, 0.575)) , url("../images/party.jpg");
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 90dvh;
+    position: relative;
+}
+
+#home .note{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#home .note h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    color: white ;
+
+}
+
+#home .note p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white ;
+    text-align: center;
+
+}
+
+#home .open p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    top: 50% ;
+    left: 10px;
+    cursor: pointer;
+}
+
+/***************************Singers CSS***************/
+
+#duration{
+    padding: 100px  0!important;
+}
+
+#duration .singer-name{
+    background-color: #E68285;
+    color: white;
+    cursor: pointer;
+}
+
+#duration .singer-info{
+    background-color: #CCCCCC;
+}
+
+#duration .singer-info .information{
+    padding: 10px 0;
+}
+#duration .info2,#duration .info3,#duration .info4{
+    display: none;
+}
+
+
+/******************************Counter CSS********************/
+
+#details{
+    background-image: linear-gradient(rgba(204, 45, 45, 0.575) , rgba(204, 45, 45, 0.575)) , url("../images/joinUs.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0 ;
+}
+
+
+#details .container .row p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    /* background-color: black; */
+    padding: 40px 50px;
+    border: 2px solid white;
+    text-align: center;
+
+}
+
+/******************************Join-us CSS********************/
+
+#contact{
+    /* background-color: blue; */
+}
+
+#contact .info{
+    padding: 130px;
+}
+
+#contact .info h2{
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #444444;
+}
+
+#contact .info p{
+   
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+}
+
+#contact .info .row .col1 strong{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #444444;
+}
+
+#contact .info .row .col1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+}
+
+#contact .info .row .col1 .details p{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+}
+
+#contact .info .row .col1 .details span{
+    color: red;
+}
+#contact .info .row .col1 .details i{
+    padding-right: 10px;
+}
+
+#contact .info .row .col1 .links i{
+
+    /* background-color: red; */
+    color: #777777;
+    padding: 10px;
+    border: 1px solid #777777;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+#contact .info .row .col1 .links i:hover{
+    background-color: #D62E33;
+    color: white;
+    border: none;
+}
+
+
+#contact .info .row .col2 textarea{
+    height: 200px;
+    resize: none;
+    
+}
+
+
+#contact .info .row .col2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #777777;
+}
+#contact .info .row .col2 span{
+    color: #D62E33;
+}
+
+
+/**********************Settings CSS*****************/
+
+.settings{
+    position: fixed;
+    background-color: rgb(0, 0, 0,7);
+    /* background-color: red; */
+    width: 15%;
+    height: 100%;
+    z-index: 999999;
+    white-space: nowrap;
+    display: none;
+}
+
+.settings .links .innerBox a{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    transition: 0.5s;
+    
+}
+
+.settings .links .innerBox a:hover{
+    color: darkred;
+}
+
+.settings .links .innerBox i{
+    font-size: 25px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.settings .links .innerBox i:hover{
+    color: darkred;
+}
+
+/********************Open CSS***************/
+
